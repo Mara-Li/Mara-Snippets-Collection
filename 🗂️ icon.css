@@ -1,0 +1,109 @@
+.obsidian-icon-folder-icon {
+  position: relative;
+  top: -1px;
+  padding-right: 0.4em !important;
+  padding-left: 4px;
+  border: 0 !important;
+}
+
+.nav-file-title-content {
+  top: 2px;
+  position: relative;
+}
+
+.nav-folder.mod-root .nav-folder>.nav-folder-children {
+  margin: 0;
+}
+
+.nav-folder.mod-root .nav-folder>.nav-folder-children {
+  border-left: 1px solid transparent;
+}
+
+.nav-folder-children .nav-folder-children {
+  margin-left: 0;
+  border-left: none;
+  overflow: hidden;
+}
+
+
+.nav-files-container {
+  overflow-x: hidden;
+}
+
+div[data-path*="Illustration"]+div.nav-folder-children {
+  opacity: 1;
+  display: block !important;
+}
+
+.workspace-split.mod-left-split .nav-files-container,
+.workspace-split.mod-right-split .nav-files-container {
+  padding: 0;
+}
+
+.nav-file-title .obsidian-icon-folder-icon {
+  left: 5px;
+}
+
+.nav-folder-title[data-path*="01. Programmation/"]>*,
+.nav-folder-title[data-path*="02. Blog/"]>* {
+  padding-left: 4px;
+  left: 3px;
+}
+
+
+.nav-folder-collapse-indicator.collapse-icon {
+  opacity: 0;
+}
+
+
+.nav-folder-title[data-path*="22. Personnages/"] .obsidian-icon-folder-icon {
+  margin-left: 0px !important;
+  margin-right: 0.2em;
+  left: 5px;
+}
+
+.nav-folder-title[data-path*="22. Personnages/"] .tree-item-inner.nav-folder-title-content {
+  padding-left: 4px;
+}
+
+.nav-file-title[data-path] .obsidian-icon-folder-icon {
+  left: 3px !important;
+  padding-right: 0.5em !important;
+  /* padding-left: 8px;*/
+}
+
+.tree-item-self.bookmark.is-clickable>.tree-item-icon {
+  position: relative;
+}
+
+.workspace-leaf-content[data-type=bookmarks] .view-content>div>div.tree-item>div.tree-item-self.bookmark:has(.tree-item-inner.data-link-icon.data-link-icon-after.data-link-text[data-link-path$="md"]) {
+  padding-left: 0.5em !important;
+}
+
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-self.is-clickable.mod-collapsible.nav-folder-title,
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-file>.tree-item-self.is-clickable.nav-file-title {
+  left: -1em !important;
+  position: relative;
+}
+
+
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-self.is-clickable.mod-collapsible.nav-folder-title {
+  left: -1em !important;
+  position: relative;
+}
+
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-file>.tree-item-self.is-clickable.nav-file-title,
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-self.is-clickable.mod-collapsible.nav-folder-title {
+  left: -1em !important;
+  position: relative;
+}
+
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-file>.tree-item-self.is-clickable.nav-file-title {
+  left: -0.5em !important;
+  position: relative;
+}
+
+.tree-item.nav-folder.mod-root>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-folder>.tree-item-children.nav-folder-children>.tree-item.nav-file>.tree-item-self.is-clickable.nav-file-title {
+  left: -1em !important;
+  position: relative;
+}
